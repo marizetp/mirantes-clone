@@ -8,3 +8,27 @@ body {
     margin: 0;
 }
 
+#logo img {
+    height: 3.2rem;
+}
+
+header{
+    box-sizing: border-box;
+    display: flex;
+    height: 10vh;
+}
+
+.search-bar input{
+    height: 3rem;
+}
+
+.hero{
+    background-color: var(--main-blue);
+    height: 30vh;
+}
+
+
+.main-container{
+    background-color: var(--second-white);
+}
+
