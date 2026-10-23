@@ -33,6 +33,9 @@ header{
     justify-content: space-around;
 }
 
+.hero-text{
+    color: var(--white-color);
+}
 .profile-card{
     background-color: var(--white-color);
     width: 16rem;
