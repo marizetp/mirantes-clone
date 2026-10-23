@@ -28,8 +28,18 @@ header{
 .hero{
     background-color: var(--main-blue);
     height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
+.profile-card{
+    background-color: var(--white-color);
+    width: 16rem;
+    height: 4.5rem;
+    padding: 1rem 2rem;
+    border-radius: 1.6rem;
+}
 
 .main-container{
     background-color: var(--second-white);
