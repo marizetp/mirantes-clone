@@ -54,11 +54,25 @@ header{
     padding: 3rem 10rem;
 }
 
+.write-box{
+    display: flex;
+    
+    background-color: var(--white-color);
+    padding: 1.2rem;
+    border-radius: 10px;
+    gap: 0.5rem;
+}
 .pfp img{
     width: 32px;
     height: 32px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.post-btn{
+    height: 32px;
+    width: 90%;
+    padding: 0.5rem 0.75rem;
 }
 
 .name{
