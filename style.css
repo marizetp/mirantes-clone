@@ -46,5 +46,31 @@ header{
 
 .main-container{
     background-color: var(--second-white);
+    display: flex;
 }
 
+.pfp img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name{
+    text-decoration: none;
+    color: inherit;
+}
+.post-container{
+    width: 33rem;
+}
+.post{
+    width: 30rem;
+    height: 30rem;
+}
+
+.post img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
