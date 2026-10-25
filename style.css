@@ -56,7 +56,7 @@ header{
     background-color: var(--second-white);
     display: flex;
     justify-content: space-around;
-    padding: 3rem 10rem;
+    padding: 2rem 10rem;
 }
 
 .feed-container{
