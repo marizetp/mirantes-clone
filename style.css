@@ -25,6 +25,8 @@ header{
     height: 3rem;
 }
 
+/*HERO SECTION*/
+
 .hero{
     background-color: var(--main-blue);
     height: 30vh;
@@ -44,9 +46,12 @@ header{
     border-radius: 1.6rem;
 }
 
+/*MAIN SECTION*/
 .main-container{
     background-color: var(--second-white);
     display: flex;
+    justify-content: space-around;
+    padding: 3rem 10rem;
 }
 
 .pfp img{
