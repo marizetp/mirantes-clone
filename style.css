@@ -125,21 +125,54 @@ header{
 
 
 
+.post-container{
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    width: inherit;
+}
+
+.post-id{
+    display: flex;
+    align-self: flex-start;
+    gap: 10px;
+}
+
+p{
+    font-size: 0.8rem;
+}
+
+.post-id p{
+    margin: 0;
+    
+}
 .name{
     text-decoration: none;
     color: inherit;
-}
-.post-container{
-    width: 33rem;
-}
-.post{
-    width: 30rem;
-    height: 30rem;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
-.post img{
+.post{
+    background-color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+}
+
+
+.post-media{
     width: 100%;
-    height: 100%;
+    
     object-fit: cover;
     border-radius: 10px;
+}
+
+.sep{
+    height: 1px;
+    background-color: var(--light-gray);
+    width: 100%;
+    margin: 1.5em 0;
 }
