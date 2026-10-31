@@ -60,6 +60,18 @@ header{
     padding: 2rem 10rem;
 }
 
+.blue-btn{
+    width: 12rem;
+    height: 2rem;
+    padding: 0 0.5rem;
+    margin-top: 0.625rem;
+    border: 0 solid;
+    font-family: inherit;
+    cursor: pointer;
+    color: #0b89ce;
+    background-color: #0b89ce20;
+}
+
 .feed-container{
     width: 43rem;
 }
